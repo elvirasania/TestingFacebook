@@ -1,0 +1,35 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TC_LoginNegatif,Chrome 128.0.0.0,,,30-08-2024 16:21:49,30-08-2024 16:25:35,3m - 45.772s,PASSED
+,,,,,,,
+Test Cases/Facebook/TC_Login02,Chrome 128.0.0.0,Login dengan email/nomor telepon tidak valid,,30-08-2024 16:21:50,30-08-2024 16:22:27,37.792s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,30-08-2024 16:21:50,30-08-2024 16:21:52,2.205s,PASSED
+"navigateToUrl(""https://web.facebook.com/?_rdc=1&_rdr"")",Chrome 128.0.0.0,,,30-08-2024 16:21:52,30-08-2024 16:21:54,2.057s,PASSED
+"setText(findTestObject(""Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60""), ""vegetarian"")",Chrome 128.0.0.0,,,30-08-2024 16:21:54,30-08-2024 16:21:55,1.020s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc""), ""pP6844vZzIkwB+YX7enOXQ=="")",Chrome 128.0.0.0,,,30-08-2024 16:21:55,30-08-2024 16:21:56,0.567s,PASSED
+"click(findTestObject(""Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook  log in or sign up/button_Log in""))",Chrome 128.0.0.0,,,30-08-2024 16:21:56,30-08-2024 16:22:27,31.582s,PASSED
+closeBrowser(),Chrome 128.0.0.0,,,30-08-2024 16:22:27,30-08-2024 16:22:27,0.143s,PASSED
+,,,,,,,
+Test Cases/Facebook/TC_Login03,Chrome 128.0.0.0,Login dengan password tidak valid,,30-08-2024 16:22:27,30-08-2024 16:23:43,1m - 15.479s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,30-08-2024 16:22:27,30-08-2024 16:22:28,1.058s,PASSED
+"navigateToUrl(""https://web.facebook.com/?_rdc=1&_rdr"")",Chrome 128.0.0.0,,,30-08-2024 16:22:28,30-08-2024 16:22:30,1.327s,PASSED
+"setText(findTestObject(""Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60""), ""vegetarianalami@gmail.com"")",Chrome 128.0.0.0,,,30-08-2024 16:22:30,30-08-2024 16:22:30,0.671s,PASSED
+"click(findTestObject(""Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook  log in or sign up/div_Facebook helps you connect and share wi_33762e""))",Chrome 128.0.0.0,,,30-08-2024 16:22:30,30-08-2024 16:22:31,0.283s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc""), ""8SQVv/p9jVTHLrggi8kCzw=="")",Chrome 128.0.0.0,,,30-08-2024 16:22:31,30-08-2024 16:22:31,0.402s,PASSED
+"click(findTestObject(""Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook  log in or sign up/button_Log in""))",Chrome 128.0.0.0,,,30-08-2024 16:22:31,30-08-2024 16:23:03,31.332s,PASSED
+"click(findTestObject(""Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook/a_Try another way""))",Chrome 128.0.0.0,,,30-08-2024 16:23:03,30-08-2024 16:23:43,40.136s,PASSED
+closeBrowser(),Chrome 128.0.0.0,,,30-08-2024 16:23:43,30-08-2024 16:23:43,0.185s,PASSED
+,,,,,,,
+Test Cases/Facebook/TC_Login04,Chrome 128.0.0.0,Login tanpa mengisi salah satu field,,30-08-2024 16:23:43,30-08-2024 16:24:51,1m - 8.439s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,30-08-2024 16:23:43,30-08-2024 16:23:44,1.154s,PASSED
+"navigateToUrl(""https://web.facebook.com/?_rdc=1&_rdr"")",Chrome 128.0.0.0,,,30-08-2024 16:23:44,30-08-2024 16:23:48,3.495s,PASSED
+"setText(findTestObject(""Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60""), ""vegetarianalami@gmail.com"")",Chrome 128.0.0.0,,,30-08-2024 16:23:48,30-08-2024 16:23:48,0.840s,PASSED
+"click(findTestObject(""Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook  log in or sign up/button_Log in""))",Chrome 128.0.0.0,,,30-08-2024 16:23:48,30-08-2024 16:24:20,31.463s,PASSED
+"click(findTestObject(""Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook/form_Use your Google accountUse your Google_c9bfe0""))",Chrome 128.0.0.0,,,30-08-2024 16:24:20,30-08-2024 16:24:51,31.397s,PASSED
+,,,,,,,
+Test Cases/Facebook/TC_Login05,Chrome 128.0.0.0,Login tanpa mengisi semua field,,30-08-2024 16:24:51,30-08-2024 16:25:35,43.903s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,30-08-2024 16:24:51,30-08-2024 16:24:53,1.279s,PASSED
+"navigateToUrl(""https://web.facebook.com/?_rdc=1&_rdr"")",Chrome 128.0.0.0,,,30-08-2024 16:24:53,30-08-2024 16:24:55,2.274s,PASSED
+"click(findTestObject(""Object Repository/Facebook/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60""))",Chrome 128.0.0.0,,,30-08-2024 16:24:55,30-08-2024 16:24:55,0.289s,PASSED
+"click(findTestObject(""Object Repository/Facebook/Page_Facebook  log in or sign up/button_Log in""))",Chrome 128.0.0.0,,,30-08-2024 16:24:55,30-08-2024 16:25:27,31.487s,PASSED
+"click(findTestObject(""Object Repository/Facebook/Page_Log in to Facebook/button_Log in""))",Chrome 128.0.0.0,,,30-08-2024 16:25:27,30-08-2024 16:25:35,8.362s,PASSED
+closeBrowser(),Chrome 128.0.0.0,,,30-08-2024 16:25:35,30-08-2024 16:25:35,0.138s,PASSED

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TC_LoginNegatif" time="225.772" tests="4" failures="0" errors="0">
+   <testsuite name="TC_LoginNegatif" tests="4" failures="0" errors="0" time="225.772" skipped="0" timestamp="30-08-2024T16:21:49" hostname="elvira - localhost" id="Test Suites/Facebook/TC_LoginNegatif">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="/Users/elvira/Katalon Studio/Testing Login Facebook/Reports/20240830_162142/Facebook/TC_LoginNegatif/20240830_162142"/>
+         <property name="logFiles" value="/Users/elvira/Katalon Studio/Testing Login Facebook/Reports/20240830_162142/Facebook/TC_LoginNegatif/20240830_162142/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="elvira - localhost"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="9.7.0.223"/>
+         <property name="browser" value="Chrome 128.0.0.0"/>
+         <property name="hostAddress" value="127.0.0.1"/>
+         <property name="sessionId" value="de1e303d2a9c862f2348bc62055b3b98"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Facebook/TC_Login02" time="37.792" classname="Test Cases/Facebook/TC_Login02" status="PASSED">
+         <system-out><![CDATA[30-08-2024T16:21:50 - [TEST_CASE][PASSED] - Test Cases/Facebook/TC_Login02: Test Cases/Facebook/TC_Login02
+
+30-08-2024T16:21:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-08-2024T16:21:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-08-2024T16:21:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-08-2024T16:21:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-08-2024T16:21:52 - [TEST_STEP][PASSED] - navigateToUrl("https://web.facebook.com/?_rdc=1&_rdr"): Navigate to 'https://web.facebook.com/?_rdc=1&_rdr' successfully
+
+30-08-2024T16:21:54 - [MESSAGE][PASSED] - Navigate to 'https://web.facebook.com/?_rdc=1&_rdr' successfully
+
+30-08-2024T16:21:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60"), "vegetarian"): Text 'vegetarian' is set on object 'Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60'
+
+30-08-2024T16:21:55 - [MESSAGE][PASSED] - Text 'vegetarian' is set on object 'Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60'
+
+30-08-2024T16:21:55 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc"), "pP6844vZzIkwB+YX7enOXQ=="): Text ****** has been set on object 'Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc'
+
+30-08-2024T16:21:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc'
+
+30-08-2024T16:21:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook  log in or sign up/button_Log in")): Object: 'Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook  log in or sign up/button_Log in' is clicked on
+
+30-08-2024T16:22:27 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='u_0_5_mi']'. Please recheck the objects properties to make sure the desired element is located. 
+
+30-08-2024T16:22:27 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook  log in or sign up/button_Log in'. Try using Self-healing.
+
+30-08-2024T16:22:27 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook  log in or sign up/button_Log in' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Facebook helps you connect and share with the people in your life.'])[1]/following::button[1]'.
+
+30-08-2024T16:22:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook  log in or sign up/button_Log in' is clicked on
+
+30-08-2024T16:22:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-08-2024T16:22:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Facebook/TC_Login03" time="75.479" classname="Test Cases/Facebook/TC_Login03" status="PASSED">
+         <system-out><![CDATA[30-08-2024T16:22:27 - [TEST_CASE][PASSED] - Test Cases/Facebook/TC_Login03: Test Cases/Facebook/TC_Login03
+
+30-08-2024T16:22:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-08-2024T16:22:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-08-2024T16:22:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-08-2024T16:22:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-08-2024T16:22:28 - [TEST_STEP][PASSED] - navigateToUrl("https://web.facebook.com/?_rdc=1&_rdr"): Navigate to 'https://web.facebook.com/?_rdc=1&_rdr' successfully
+
+30-08-2024T16:22:30 - [MESSAGE][PASSED] - Navigate to 'https://web.facebook.com/?_rdc=1&_rdr' successfully
+
+30-08-2024T16:22:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60"), "vegetarianalami@gmail.com"): Text 'vegetarianalami@gmail.com' is set on object 'Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60'
+
+30-08-2024T16:22:30 - [MESSAGE][PASSED] - Text 'vegetarianalami@gmail.com' is set on object 'Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60'
+
+30-08-2024T16:22:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook  log in or sign up/div_Facebook helps you connect and share wi_33762e")): Object: 'Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook  log in or sign up/div_Facebook helps you connect and share wi_33762e' is clicked on
+
+30-08-2024T16:22:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook  log in or sign up/div_Facebook helps you connect and share wi_33762e' is clicked on
+
+30-08-2024T16:22:31 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc"), "8SQVv/p9jVTHLrggi8kCzw=="): Text ****** has been set on object 'Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc'
+
+30-08-2024T16:22:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ab63fc'
+
+30-08-2024T16:22:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook  log in or sign up/button_Log in")): Object: 'Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook  log in or sign up/button_Log in' is clicked on
+
+30-08-2024T16:23:02 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='u_0_5_mi']'. Please recheck the objects properties to make sure the desired element is located. 
+
+30-08-2024T16:23:02 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook  log in or sign up/button_Log in'. Try using Self-healing.
+
+30-08-2024T16:23:02 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook  log in or sign up/button_Log in' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Facebook helps you connect and share with the people in your life.'])[1]/following::button[1]'.
+
+30-08-2024T16:23:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook  log in or sign up/button_Log in' is clicked on
+
+30-08-2024T16:23:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook/a_Try another way")): Object: 'Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook/a_Try another way' is clicked on
+
+30-08-2024T16:23:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //form[@id='u_0_1_z9']/div/div[3]/div/div/a'. Please recheck the objects properties to make sure the desired element is located. 
+
+30-08-2024T16:23:34 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook/a_Try another way'. Try using Self-healing.
+
+30-08-2024T16:23:34 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook/a_Try another way' was broken. Propose an alternative one: '//a[contains(text(),'Try another way')]'.
+
+30-08-2024T16:23:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook/a_Try another way' is clicked on
+
+30-08-2024T16:23:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-08-2024T16:23:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Facebook/TC_Login04" time="68.439" classname="Test Cases/Facebook/TC_Login04" status="PASSED">
+         <system-out><![CDATA[30-08-2024T16:23:43 - [TEST_CASE][PASSED] - Test Cases/Facebook/TC_Login04: Test Cases/Facebook/TC_Login04
+
+30-08-2024T16:23:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-08-2024T16:23:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-08-2024T16:23:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-08-2024T16:23:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-08-2024T16:23:44 - [TEST_STEP][PASSED] - navigateToUrl("https://web.facebook.com/?_rdc=1&_rdr"): Navigate to 'https://web.facebook.com/?_rdc=1&_rdr' successfully
+
+30-08-2024T16:23:48 - [MESSAGE][PASSED] - Navigate to 'https://web.facebook.com/?_rdc=1&_rdr' successfully
+
+30-08-2024T16:23:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60"), "vegetarianalami@gmail.com"): Text 'vegetarianalami@gmail.com' is set on object 'Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60'
+
+30-08-2024T16:23:48 - [MESSAGE][PASSED] - Text 'vegetarianalami@gmail.com' is set on object 'Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60'
+
+30-08-2024T16:23:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook  log in or sign up/button_Log in")): Object: 'Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook  log in or sign up/button_Log in' is clicked on
+
+30-08-2024T16:24:20 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='u_0_5_mi']'. Please recheck the objects properties to make sure the desired element is located. 
+
+30-08-2024T16:24:20 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook  log in or sign up/button_Log in'. Try using Self-healing.
+
+30-08-2024T16:24:20 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook  log in or sign up/button_Log in' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Facebook helps you connect and share with the people in your life.'])[1]/following::button[1]'.
+
+30-08-2024T16:24:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook  log in or sign up/button_Log in' is clicked on
+
+30-08-2024T16:24:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook/form_Use your Google accountUse your Google_c9bfe0")): Object: 'Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook/form_Use your Google accountUse your Google_c9bfe0' is clicked on
+
+30-08-2024T16:24:51 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //form[@id='u_0_1_Uo']'. Please recheck the objects properties to make sure the desired element is located. 
+
+30-08-2024T16:24:51 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook/form_Use your Google accountUse your Google_c9bfe0'. Try using Self-healing.
+
+30-08-2024T16:24:51 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook/form_Use your Google accountUse your Google_c9bfe0' was broken. Propose an alternative one: '//div[@id='lara_strong_rec_screen']/div/form'.
+
+30-08-2024T16:24:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Facebook/Page_Facebook  log in or sign up/Page_Facebook/form_Use your Google accountUse your Google_c9bfe0' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Facebook/TC_Login05" time="43.903" classname="Test Cases/Facebook/TC_Login05" status="PASSED">
+         <system-out><![CDATA[30-08-2024T16:24:51 - [TEST_CASE][PASSED] - Test Cases/Facebook/TC_Login05: Test Cases/Facebook/TC_Login05
+
+30-08-2024T16:24:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-08-2024T16:24:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+30-08-2024T16:24:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-08-2024T16:24:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-08-2024T16:24:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-08-2024T16:24:53 - [TEST_STEP][PASSED] - navigateToUrl("https://web.facebook.com/?_rdc=1&_rdr"): Navigate to 'https://web.facebook.com/?_rdc=1&_rdr' successfully
+
+30-08-2024T16:24:55 - [MESSAGE][PASSED] - Navigate to 'https://web.facebook.com/?_rdc=1&_rdr' successfully
+
+30-08-2024T16:24:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Facebook/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60")): Object: 'Object Repository/Facebook/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60' is clicked on
+
+30-08-2024T16:24:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Facebook/Page_Facebook  log in or sign up/input_Facebook helps you connect and share _ccef60' is clicked on
+
+30-08-2024T16:24:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Facebook/Page_Facebook  log in or sign up/button_Log in")): Object: 'Object Repository/Facebook/Page_Facebook  log in or sign up/button_Log in' is clicked on
+
+30-08-2024T16:25:26 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //button[@id='u_0_5_mo']'. Please recheck the objects properties to make sure the desired element is located. 
+
+30-08-2024T16:25:26 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Facebook/Page_Facebook  log in or sign up/button_Log in'. Try using Self-healing.
+
+30-08-2024T16:25:27 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Facebook/Page_Facebook  log in or sign up/button_Log in' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Facebook helps you connect and share with the people in your life.'])[1]/following::button[1]'.
+
+30-08-2024T16:25:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Facebook/Page_Facebook  log in or sign up/button_Log in' is clicked on
+
+30-08-2024T16:25:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Facebook/Page_Log in to Facebook/button_Log in")): Object: 'Object Repository/Facebook/Page_Log in to Facebook/button_Log in' is clicked on
+
+30-08-2024T16:25:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Facebook/Page_Log in to Facebook/button_Log in' is clicked on
+
+30-08-2024T16:25:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-08-2024T16:25:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[30-08-2024T16:21:49 - [TEST_SUITE][PASSED] - TC_LoginNegatif: Test Cases/Facebook/TC_Login05]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

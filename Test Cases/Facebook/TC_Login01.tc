@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Pengguna memiliki akun Facebook yang valid (email/nomor telepon dan password yang benar).</description>
+   <name>TC_Login01</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6989239d-01db-492e-97aa-f8209719a850</testCaseGuid>
+</TestCaseEntity>

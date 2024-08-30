@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login tanpa mengisi semua field</description>
+   <name>TC_Login05</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>aafeedca-7364-40a0-b335-4a7e4a3c02ca</testCaseGuid>
+</TestCaseEntity>

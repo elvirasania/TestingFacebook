@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login dengan email/nomor telepon tidak valid</description>
+   <name>TC_Login02</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2745afca-87c3-47f0-916e-2781f3d99917</testCaseGuid>
+</TestCaseEntity>
